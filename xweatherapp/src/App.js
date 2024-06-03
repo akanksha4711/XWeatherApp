@@ -35,7 +35,7 @@ function App() {
     return (
     <div className="App">
       <div>
-        <input value={city} onChange={(e) => {
+        <input type='text' value={city} onChange={(e) => {
           setCity(e.target.value);
         }}/>
         <button onClick={() => {
